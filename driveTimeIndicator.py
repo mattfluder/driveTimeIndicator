@@ -87,7 +87,7 @@ class Indicator():
     def updateTimeLoop(self):
         while True:
             self.updateTravelTime()
-            time.sleep(60)
+            time.sleep(150)
 
 
 
